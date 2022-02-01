@@ -1,8 +1,42 @@
-h1{
-    color: red;
-    border: dashed green 2px;
+h1, h3, h6{
+    color:red;
+    border : dashed green 2px
 }
 
 h2{
-    color: greenyellow;
+    color:blue;
+    border : solid red 2px
+}
+
+p span{
+    background-color: aqua;
+}
+
+.maClass1{
+    background-color: aquamarine;
+    font-style: italic;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 3%;
+}
+
+.maClass2{
+    background-color: chartreuse;
+    font-style: italic;
+    border-style: dashed;
+    border-color: brown;
+    border-radius: 3%;
+}
+
+#id1{
+    background-color: blanchedalmond;
+}
+
+.classid1{
+    font-style: italic;
+    color: deepskyblue;
+}
+
+.classid2{
+ border-style: dotted ; 
 }
